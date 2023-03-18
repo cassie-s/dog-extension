@@ -1,0 +1,15 @@
+{
+"manifest_version": 2,
+
+"name": "Random Dog Photo",
+"description": "This extension will give you easy access to random dog photos",
+"version": "1.0",
+
+"browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+},
+"permissions": [
+    "tabs"
+]
+}
